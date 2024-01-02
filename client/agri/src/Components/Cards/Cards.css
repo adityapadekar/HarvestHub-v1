@@ -1,0 +1,230 @@
+a{
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.name_image{
+    border-radius: 50%;
+    height: 250px;
+}
+
+.dummycards_div{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    background-color: white;
+    height: 290px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+    overflow: hidden;
+    background-image: url(../../Images/card_background.png);
+    background-size: 580px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+  
+    
+    
+}
+
+
+.cards_upper_div{
+    /* border: 3px solid black; */
+    display: flex;
+    height: 180px;
+    width: 580px;
+    margin: 10px
+   
+
+}
+.cards_image{
+
+    
+    /* border: 1px solid green; */
+    width: 40%;
+    height: 180px; 
+    
+}
+
+.cards_info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 25px;
+    /* border: 1px solid black; */
+    
+}
+
+
+.product_name{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+
+
+.cards_lower_div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info_price{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+.cards_info{
+    /* border: 3px solid black; */
+    height: 180px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+    margin-left: 25px;
+}
+
+
+.image_div{
+    height: 180px;
+    width:250px; 
+ } 
+
+ .image_div img{
+    border-radius: 2em;
+    height: 180px;
+    width: 250px;
+ } 
+
+
+.admin_option {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content:center;
+    cursor: pointer;
+    
+}
+
+
+.admin_option button{
+    /* margin: 20px; */
+    margin-top: 10px;
+    margin-left: 16px;
+    padding: 5.5px 15px;
+    border: 4px solid #ffffff;
+    font-size: 15px;
+    border-radius: 50px;
+    color: #DD706E;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+/* drop  */
+
+
+
+.drop{
+    display: flex;
+    height: 300px;
+    width: 800px;
+    /* border: 1px solid red;*/
+    background-color: rgb(11, 34, 73);
+    border-radius: 1em;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+
+.close{
+    display: none;
+    
+}
+.close_drop_btn{
+    height: 20px;
+    width: 60px;
+    background-color: red;
+    border-radius: 1em;
+    border: none;
+    color: black;
+}
+
+
+.udpadte_inputs{
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    border-radius:1em ;
+}
+
+
+.update_submit{
+    height: 20px;
+    width: 80px;
+    background-color: green;
+    border-radius: 1em;
+    border: none;
+    color: black;
+}
+
+
+.update_btn_div{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+
+.viewallHeading{
+    color: #DD706E;
+    border: 4px solid #DD706E;
+    border-radius: 100px;
+    font-weight: 500;
+    padding: 2px ;
+    width: 100px;
+    margin-left: 35px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+
+
+
+@media screen and   (max-width:650px) { 
+
+    .dummycards_div{
+        height: 290px;
+        width: 500px;
+    }
+
+    .drop{
+        width: auto;
+    }
+
+
+    .udpadte_inputs{
+        width: auto;
+    }
+}
+.admin_button{
+    cursor: not-allowed;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,356 @@
+
+
+
+/* search bar */
+.search-div{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.home-search-box{
+ /* border: 1px solid black; */
+ width: 500px; /* Adjust the width as needed */
+ padding: 5px;
+ padding-bottom: 10px;
+ border: none;
+ border-radius: 1em;
+ text-align: center;
+ background-color: rgb(194, 181, 181);
+ outline: none;
+ 
+
+}
+
+.home-search-box:active{
+    border: none;
+    outline: none;
+}
+
+
+
+
+.search_logo{
+    
+    left: 700px;
+    top: 230px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color:rgb(181, 180, 180);
+    border-radius: 0.8em;
+    color:black;
+    font-weight: 600;
+    border: none;
+    
+    
+
+}
+
+
+
+
+
+
+
+.main-div{
+    /* padding: 100px; */
+    height: 1000px;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-image: url(../Images//Home_left.jpg); 
+   background-repeat: no-repeat;
+   /* background-size: 100%; */
+   background-size: cover;
+   
+ 
+   
+}
+
+
+.textoff{
+    margin-top: 70px;
+    margin-left: 40px;
+    color: #FFFFFF;
+    font-size: larger;
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Adjust the left position as needed */
+    transform: translate(0, -50%);
+    font-size: 30px;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.home_image1{
+    /* border: 5px solid black; */
+    height: 20rem;
+    width: 100%;
+    
+}
+
+.image1{
+    height: auto;
+    width: 100%;
+    
+}
+
+
+.cards_div{
+    /* border: 2px solid red; */
+    /* /* height: 20em; */
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:60px  ;
+    position: relative;
+    
+
+}
+
+
+
+.home_anchor_images{
+    /* border: 1px solid black; */
+    height: 20em;
+    width: 20em;
+}
+
+
+
+.home_anchor{
+    
+    text-decoration: none;
+}
+
+
+
+
+
+.home_images{
+    height:100%;
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+
+
+  .card_one,.card_second{
+    /* border: 1px solid green; */
+    height: 13rem;
+    width: 20rem;
+    /* width: 100%; */
+
+    }  
+
+
+ .card_one{
+    position: absolute;
+    right: 500px;
+ }
+ .card_second{
+    position: absolute;
+    right: 100px; 
+ }   
+
+
+ .image_name{
+    /* border: 1px solid greenyellow; */
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 100%;
+    font-size:x-large;
+    font-weight: 900;
+    
+    
+ }
+
+    
+    
+.home_image2{
+     /* border: 1px solid black; */
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+ }
+
+ .image2{
+    height: 20rem;
+    width: 50%;
+ }
+
+ .image2_text{
+    color: #000000;
+    font-size: larger;
+    margin-right: 200px;
+   
+   
+    font-size: 50px;
+    
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+
+
+
+ .Create_button{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 5em;
+    width: 100%;
+    /* background-color: whitesmoke; */
+
+
+ }
+
+ .Create_button button{
+    padding: 10px;
+    border: none;
+    border-radius: 2em;
+    background-color: black;
+    color: red;
+ }
+
+ .show_close_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+
+.closeSearch{
+    background-color: black;
+    color: red;
+    padding: 6px;
+    border-radius: 1em;
+}
+
+ /*search show part*/
+ .show_search{
+    /* width: 100%; */
+    padding: 25px;
+ }
+ 
+
+
+
+ /* media queries */
+
+
+
+ @media  screen and (max-width: 820px) {
+ 
+.card_one,.card_second{
+height: 10rem;
+width: 14rem;
+}
+
+.card_one{
+    position: absolute;
+    right:auto;
+}
+
+.card_second{
+position: absolute;
+right: auto;
+}
+
+
+
+
+
+}
+
+
+
+@media  screen and (max-width: 750px) {
+ 
+    .card_one,.card_second{
+    height: 10rem;
+    width: 14rem;
+    }
+    
+    .card_one{
+        position: absolute;
+        right:0px;
+        top: -100px;
+    }
+    
+    .card_second{
+    position: absolute;
+    right: 0px;
+    top: 120px;
+    }
+
+
+    
+
+    .search-div{
+        height: 150px;
+    }
+
+    
+    .home_image1{
+    
+        display: none;
+    }
+    .image1{
+    display: none;
+        
+    }
+    
+    .main-div{
+        height: 700px;
+        position: relative;
+    }
+    
+    .cards_div{
+        position: absolute;
+        top: 100px;
+        width: 65%;
+        right: 40px;
+    }
+    
+    
+    }
+
+
+
+
+    @media  screen and (max-width: 640px) {
+   .main-div{
+
+    background-size: cover;
+    background-image: url("../Images//grans_classic.jpg");
+   }
+   
+    }
+
